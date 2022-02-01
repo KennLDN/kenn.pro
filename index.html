@@ -1,0 +1,15 @@
+<head>
+	<title>KENN</title>
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script> 
+</head>
+
+<canvas style="--gradient-color-1:#ef008f;--gradient-color-2:#6ec3f4;--gradient-color-3:#7038ff;--gradient-color-4:#e2e2e2;" id="gradient-canvas" data-transition-in></canvas>
+
+<script>
+	window.addEventListener('DOMContentLoaded', (e) => {
+		var gradient = new Gradient;
+		gradient.initGradient("#gradient-canvas");
+	});
+</script>
